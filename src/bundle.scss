@@ -1,0 +1,21 @@
+@import './modules/style.scss';
+@import './fields/style.scss';
+.et-db #et-boc .et-l .et-fb-modules-list li {
+	&.divi_pro_gallery {
+		border: 1px solid #fe544f !important;
+		border-radius: 6px !important;
+		padding: 10px 15px 10px 10px;
+		.et-fb-icon--svg {
+			width: 20px !important;
+			min-width: 20px !important;
+			height: 20px !important;
+			display: flex !important;
+			align-items: center !important;
+			justify-content: center !important;
+			margin: 0 auto !important;
+			svg {
+				fill: none !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+# directories
+coverage-report/
+node_modules/
+.sass-cache/
+log/
+vendor/
+local-site/
+tmp/
+
+# build outputs
+build/
+assets/css/
+assets/js/
+*.log
+*.map
+
+# build tools lock
+yarn.lock
+
+# IDE's
+.project/
+.vscode/
+.idea/
+
+# other
+Thumbs.db
+*.DS_Store
+coverage/

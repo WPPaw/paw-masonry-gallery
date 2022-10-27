@@ -1,0 +1,86 @@
+.paw-masonry-gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 1;
+	.pmg-item {
+		cursor: pointer;
+		overflow: hidden;
+		box-sizing: border-box;
+		.pmg-item-content {
+			height: 100%;
+			transform: scale(1) translate(0, 0) rotate(0deg) !important;
+			opacity: 1;
+		}
+
+		.pmg-item-overlay {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+
+		.pmg-caption {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			padding: 0;
+			max-width: 100%;
+		}
+
+		.pmg-title {
+			top: 10%;
+			transition: transform 0.35s;
+			transform: translate3d(0, 20px, 0);
+		}
+
+		.pmg-title,
+		p {
+			opacity: 0;
+			transition: opacity 0.35s, transform 0.35s;
+		}
+
+		p {
+			bottom: 20%;
+			line-height: 1.5;
+			transform: translate3d(0, 100%, 0);
+			letter-spacing: 1px;
+		}
+
+		&:hover p {
+			margin-top: 10px;
+			margin-bottom: 5px;
+			opacity: 1;
+			transform: translate3d(0, 0, 0);
+		}
+
+		&:hover .pmg-title {
+			opacity: 1;
+			transform: translate3d(0, 0, 0);
+		}
+
+		img {
+			display: block;
+			opacity: 1;
+			width: 100%;
+			object-fit: cover;
+		}
+
+		&:hover img {
+			opacity: 0.8 !important;
+		}
+	}
+}
+
+/** Defaults **/
+.pmg-item,
+.pmg-item img {
+	border-style: solid !important;
+}
