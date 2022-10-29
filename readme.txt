@@ -1,7 +1,7 @@
 === Divi Masonry Gallery ===
 Contributors: wppaw, badhonrocks
-Donate link: 
-Tags: divi, builder, masonry, gallery
+Donate link: https://wppaw.com/
+Tags: divi, builder, masonry, gallery, divi module
 Requires at least: 5.0
 Tested up to: 6.0.3
 Stable tag: 1.0.3
