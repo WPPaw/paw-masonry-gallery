@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Plugin Name: Paw Masonry Gallery
+ * Plugin Name: Divi Masonry Gallery
  * Author: WPPaw
  * Description: The fastest and easiest way to create a responsive masonry gallery.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: paw-masonry-gallery
  * License: GPL2
  */
@@ -14,7 +14,6 @@ if (!defined('ABSPATH')) exit;
 
 /**
  * Main plugin class
- *
  */
 class PawMasonryGallery
 {
@@ -44,7 +43,7 @@ class PawMasonryGallery
         add_action('divi_extensions_init', [$this, 'pmg_init']);
         add_action('wp_enqueue_scripts', [$this, 'register_frontend_scripts']);
         add_action('wp_enqueue_scripts', [$this, 'register_builder_scripts'], 99);
-        // add_filter('plugin_action_links_' . PMG_BASENAME, array($this, 'add_plugin_action_links'));
+        add_filter('plugin_action_links_' . PMG_BASENAME, array($this, 'add_plugin_action_links'));
     }
 
     public function register_frontend_scripts()
