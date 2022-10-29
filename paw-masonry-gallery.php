@@ -4,7 +4,7 @@
  * Plugin Name: Divi Masonry Gallery
  * Author: WPPaw
  * Description: The fastest and easiest way to create a responsive masonry gallery.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Text Domain: paw-masonry-gallery
  * License: GPL2
  */
@@ -33,7 +33,7 @@ class PawMasonryGallery
 
     public function __construct()
     {
-        define('PMG_VERSION',            '1.0.0');
+        define('PMG_VERSION',            '1.0.2');
         define('PMG_BASENAME',         plugin_basename(__FILE__));
         define('PMG_PLUGIN_DIR',        plugin_dir_path(__FILE__));
         define('PMG_PLUGIN_DIR_URL',  plugin_dir_url(__FILE__));
