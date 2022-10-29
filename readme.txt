@@ -15,6 +15,8 @@ Create a stunning masonry gallery display using multiple animation effects.
 
 The Divi Masonry Gallery is a cascading grid style often used in Divi, which looks more exciting and beautiful than the basic Divi Gallery.
 
+> Masonry Gallery, to maintain the same image width and varying heights.
+
 ## Lite features
 * Easy Configuration
 * Create image galleries
