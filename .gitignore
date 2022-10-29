@@ -9,8 +9,6 @@ tmp/
 
 # build outputs
 build/
-assets/css/
-assets/js/
 *.log
 *.map
 
