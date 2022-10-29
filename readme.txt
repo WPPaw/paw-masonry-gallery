@@ -32,7 +32,7 @@ Install the 'Divi Masonry Gallery' either via the WordPress plugin directory or 
 = How do I install Divi Masonry Gallery? = 
 To install the free version of Divi Masonry Gallery, follow the steps below:
 From your WordPress dashboard -> Go to Plugins -> Click on ‘Add new’-> In the Search field, enter Divi Masonry Gallery and choose Divi Masonry Gallery.
-Press install -> After installation, click Activate.
+Press Install -> After installation, click Activate.
 
 = How can I say thanks? =
 
@@ -43,6 +43,9 @@ Press install -> After installation, click Activate.
 == Screenshots ==
 
 == Changelog ==
+
+#### 1.0.1
+* Initial release
 
 #### 1.0.0
 * Initial release
