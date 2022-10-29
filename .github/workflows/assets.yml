@@ -1,15 +1,21 @@
-name: 'Plugin asset/readme update'
+name: Sync assets with wordpress.org
+
 on:
-    workflow_dispatch:
+    push:
+        branches:
+            - main
+        paths:
+            - 'readme.txt'
+            - '.wordpress-org/**'
 jobs:
-    master:
-        name: Push to master
+    run:
         runs-on: ubuntu-latest
+        if: "! contains(github.event.head_commit.message, 'chore(release)')"
+        name: Push assets to wporg
         steps:
             - uses: actions/checkout@master
             - name: WordPress.org plugin asset/readme update
-              uses: 10up/action-wordpress-plugin-asset-update@stable
+              uses: selul/action-wordpress-plugin-asset-update@develop
               env:
-                  SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
                   SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-                  SLUG: 'paw-masonry-gallery'
+                  SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
