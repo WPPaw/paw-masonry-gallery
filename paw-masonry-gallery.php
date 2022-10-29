@@ -2,9 +2,11 @@
 
 /**
  * Plugin Name: Divi Masonry Gallery
+ * Plugin URI: https://wppaw.com/
  * Author: WPPaw
+ * Author URI: https://wppaw.com/
  * Description: The fastest and easiest way to create a responsive masonry gallery.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Text Domain: paw-masonry-gallery
  * License: GPL2
  */
