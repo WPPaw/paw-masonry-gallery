@@ -3,6 +3,7 @@
 .gitignore
 .travis.yml
 .jshintrc
+.babelrc.json
 Gruntfile.js
 phpcs.xml
 .eslintrc
@@ -14,6 +15,8 @@ blocks.json
 docker-compose.yml
 webpack.config.js
 webpack.config.pro.js
+webpack.mix.js
+webpack.mix.js
 CONTRIBUTING.md
 package.json
 composer.json
