@@ -42,10 +42,6 @@ Press install -> After installation, click Activate.
 
 == Screenshots ==
 
-1. Custom Columns
-2. Select Images
-3. Overlay with Caption and Title
-
 == Changelog ==
 
 #### 1.0.0
