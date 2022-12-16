@@ -25,6 +25,17 @@ The Divi Masonry Gallery is a cascading grid style often used in Divi, which loo
 * Add image title and caption on hover
 * Show/hide image title, show/hide image caption, change caption color and font size etc.
 
+## Join Our Facebook Group ##
+[Join our Facebook group community](https://www.facebook.com/groups/466506622180801): Learn the tricks and techniques that other Divi Torque users are using to grow their businesses. Also, get exciting insider information on upcoming feature releases.
+
+## Rate us on WordPress 🙂 ##
+We are thankful to you that you have chosen our plugin. If our plugin brings a smile to your face while working, please share your happiness by giving us a 5***** rating in WordPress Org. It will make us happy and won’t take more than 2 mins.
+
+[I’m Happy to Give You](https://wordpress.org/plugins/paw-masonry-gallery/reviews/?filter=5#new-post) ⭐️ ⭐️ ⭐️ ⭐️ ⭐️
+
+## Backed by a Trusted Team ##
+[WPPaw](https://wppaw.com) Team, a dedicated WordPress product company, trusted by 20k+ happy users.
+
 == Installation ==
 
 Install the 'Divi Masonry Gallery' either via the WordPress plugin directory or by uploading the files to your server at wp-content/plugins.
@@ -45,9 +56,6 @@ Press Install -> After installation, click Activate.
 == Screenshots ==
 
 == Changelog ==
-
-#### 1.0.1
-* Initial release
 
 #### 1.0.0
 * Initial release
